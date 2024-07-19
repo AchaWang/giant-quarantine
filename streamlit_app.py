@@ -49,9 +49,9 @@ def main():
         st.text_area("合併結果", merged_content, height=200)
 
         # 添加複製按鈕
-        if st.button('複製合併結果'):
-            copy_to_clipboard(merged_content)
-            st.success('已複製到剪貼簿！')
+        #if st.button('複製合併結果'):
+        #    copy_to_clipboard(merged_content)
+        #    st.success('已複製到剪貼簿！')
 
 if __name__ == '__main__':
     main()
